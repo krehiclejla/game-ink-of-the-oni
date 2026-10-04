@@ -1,0 +1,74 @@
+{
+  "id": "game-ink-of-the-oni",
+  "name": "Ink of the Oni",
+  "version": "1.0.24",
+  "description": "An isometric sumi-e action roguelike: a lone ronin cuts through waves of oni across four cursed regions of feudal Japan, levelling up abilities, collecting katanas, charms and masks, and facing four multi-phase bosses. Spirit Ink carries over to the Dojo between runs.",
+  "entry": "index.jsx",
+  "icon": "icon.png",
+  "display": "fullscreen",
+  "offline_capable": false,
+  "theme_color": "#0b1020",
+  "background_color": "#0b1020",
+  "capabilities": {
+    "media.speech": {
+      "version": 1,
+      "reason": "Speak the characters' lines with the Möbius voice.",
+      "limits": {
+        "max_text_chars": 400
+      }
+    }
+  },
+  "permissions": {},
+  "public_access": {
+    "storage": {
+      "read": false,
+      "write_prefix": "public/notes/"
+    }
+  },
+  "source_files": [
+    "game.js",
+    "data.js",
+    "data-0.js",
+    "data-1.js",
+    "data-2.js",
+    "data-3.js",
+    "data-4.js",
+    "data-5.js",
+    "data-6.js",
+    "data-7.js",
+    "gameRuntime.js",
+    "voice.js"
+  ],
+  "store": {
+    "tagline": "A lone ronin cuts through the oni of a cursed land.",
+    "description": "Ink of the Oni is an isometric sumi-e action roguelike. Play a lone ronin cutting through waves of oni across four cursed regions of feudal Japan: a whispering bamboo grove, a burning village, a frozen temple and the Gate of Hell.\n\nChain katana combos, draw iai slashes, dash through attacks and level up as you fight. Choose abilities and upgrades from ink-brush scroll cards, collect katanas, charms and masks, and face four multi-phase bosses.\n\nWhen you fall, the Spirit Ink you earned carries over to the Dojo, where you can unlock permanent upgrades, new starting katanas and extra abilities for your next run.\n\nPlays on phone and desktop. Touch controls on phones; WASD, mouse and Q E R F abilities on desktop.",
+    "hero": "static/store/hero.png",
+    "screenshots": [
+      {
+        "src": "static/store/screen-2-combat.png",
+        "alt": "The ronin slashing a pack of oni in the Whispering Grove",
+        "label": "Cut through waves of ink-drawn oni."
+      },
+      {
+        "src": "static/store/screen-3-levelup.png",
+        "alt": "Three ability scroll cards offered at level up",
+        "label": "Level up and pick abilities and upgrades."
+      },
+      {
+        "src": "static/store/screen-4-gameover.png",
+        "alt": "The game over scroll showing run stats and Spirit Ink earned",
+        "label": "Fall, and carry your Spirit Ink to the next run."
+      },
+      {
+        "src": "static/store/screen-5-dojo.png",
+        "alt": "The Dojo upgrade list",
+        "label": "Spend Spirit Ink in the Dojo."
+      },
+      {
+        "src": "static/store/screen-1-title.png",
+        "alt": "The Ink of the Oni title scroll",
+        "label": "Four regions, four bosses."
+      }
+    ]
+  }
+}
